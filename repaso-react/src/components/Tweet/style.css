@@ -1,0 +1,12 @@
+li.tweet {
+  border-bottom: 1px solid white;
+  display: block;
+}
+
+li.tweet > h2 {
+  font-size: 2rem;
+}
+
+li.tweet > p {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,12 @@
+section#tweet-list {
+  padding: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+section#tweet-list > ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}

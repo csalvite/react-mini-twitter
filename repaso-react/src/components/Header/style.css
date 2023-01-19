@@ -1,0 +1,40 @@
+svg#logo {
+  fill: rgb(29, 155, 240);
+  width: 5rem;
+}
+
+svg.logo-menu {
+  fill: rgb(255, 255, 255);
+  width: 3rem;
+}
+
+header#header-principal {
+  background-color: #323741;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+menu#menu-header {
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+menu#menu-header > li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: background-color 200ms;
+}
+
+menu#menu-header > li:hover {
+  background-color: #92959b;
+}

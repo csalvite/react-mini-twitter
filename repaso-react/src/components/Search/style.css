@@ -1,0 +1,30 @@
+form#new-tweet {
+  background-color: #323741;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 2px solid white;
+}
+
+form#new-tweet > input {
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+form#new-tweet > svg {
+  width: 2.5rem;
+  height: auto;
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 200ms;
+  padding: 0.2rem;
+}
+
+form#new-tweet > svg:hover {
+  background-color: #afafaf;
+}
