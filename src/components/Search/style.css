@@ -15,16 +15,19 @@ form#new-tweet > input {
   font-family: inherit;
 }
 
-form#new-tweet > svg {
-  width: 2.5rem;
-  height: auto;
-  fill: rgb(255, 255, 255);
+form#new-tweet button {
+  background-color: none;
+  border: none;
   cursor: pointer;
   border-radius: 10px;
   transition: background-color 200ms;
-  padding: 0.2rem;
 }
 
-form#new-tweet > svg:hover {
+form#new-tweet svg {
+  width: 2.5rem;
+  height: auto;
+}
+
+form#new-tweet button:hover {
   background-color: #afafaf;
 }

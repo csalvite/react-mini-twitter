@@ -1,12 +1,21 @@
 import Tweet from '../Tweet';
 import './style.css';
 
-const TweetList = () => {
+const TweetList = ({ tweets }) => {
+  console.log('Lista de tweets: ', tweets);
+
   return (
     <section id='tweet-list'>
       <ul>
-        <Tweet username='manolo24' tweet='Limonada 🗿' />
-        <Tweet username='manolo24' tweet='Esto es un tweet con mucho texto' />
+        {tweets.map((tweet) => {
+          return (
+            <Tweet
+              key={tweet.id}
+              username={tweet.username}
+              tweet={tweet.tweet}
+            />
+          );
+        })}
       </ul>
     </section>
   );
