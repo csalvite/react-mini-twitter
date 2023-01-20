@@ -2,7 +2,13 @@ section#tweet-list {
   padding: 2rem;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+section#tweet-list > h2 {
+  font-size: 3rem;
+  border-bottom: 1px solid white;
 }
 
 section#tweet-list > ul {

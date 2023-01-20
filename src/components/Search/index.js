@@ -8,7 +8,7 @@ const Search = ({ tweets, setTweets }) => {
     setTweets([
       ...tweets,
       {
-        id: tweets[tweets.length - 1].id + 1,
+        id: tweets.length > 0 ? tweets[tweets.length - 1].id + 1 : 0,
         username: 'manolito',
         tweet: e.target.tweet.value,
       },

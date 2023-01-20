@@ -6,6 +6,7 @@ const TweetList = ({ tweets }) => {
 
   return (
     <section id='tweet-list'>
+      <h2>Lista de Tweets</h2>
       <ul>
         {tweets.map((tweet) => {
           return (
